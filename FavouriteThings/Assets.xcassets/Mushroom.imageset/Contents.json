@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "mario+mario+bros+mario+world+mushroom+toad+videogame+icon-1320196400529338074.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
