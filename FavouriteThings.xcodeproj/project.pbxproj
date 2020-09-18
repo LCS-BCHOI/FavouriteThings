@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA36473425150D51000C9293 /* AboutMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA36473325150D51000C9293 /* AboutMe.swift */; };
 		DA601C7825139C320054BF28 /* ABCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA601C7725139C320054BF28 /* ABCView.swift */; };
 		DAB52ECC25128910007DA19B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB52ECB25128910007DA19B /* AppDelegate.swift */; };
 		DAB52ECE25128910007DA19B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB52ECD25128910007DA19B /* SceneDelegate.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA36473325150D51000C9293 /* AboutMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMe.swift; sourceTree = "<group>"; };
 		DA601C7725139C320054BF28 /* ABCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABCView.swift; sourceTree = "<group>"; };
 		DAB52EC825128910007DA19B /* FavouriteThings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavouriteThings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB52ECB25128910007DA19B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				DAB52ED925128914007DA19B /* Info.plist */,
 				DAB52ED325128914007DA19B /* Preview Content */,
 				DA601C7725139C320054BF28 /* ABCView.swift */,
+				DA36473325150D51000C9293 /* AboutMe.swift */,
 			);
 			path = FavouriteThings;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAB52ECC25128910007DA19B /* AppDelegate.swift in Sources */,
+				DA36473425150D51000C9293 /* AboutMe.swift in Sources */,
 				DA601C7825139C320054BF28 /* ABCView.swift in Sources */,
 				DAB52ECE25128910007DA19B /* SceneDelegate.swift in Sources */,
 				DAB52ED025128910007DA19B /* ContentView.swift in Sources */,
