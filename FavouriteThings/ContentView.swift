@@ -12,7 +12,7 @@ import SwiftUI
 struct ContentView: View {
     
     //The body property,at the top level,must contain ONE and only ONE view.
-    var body: some View {
+var body: some View {
         NavigationView {
 
             List {
@@ -28,15 +28,19 @@ struct ContentView: View {
                 NavigationLink(destination: ABCView()) {
                     HStack {
                         Image("WiFi").resizable().frame(width: 50, height: 50)
-                        Text("WiFi ")
+                        Text("WiFi")
                         
                     }
                 }
-                
+                NavigationLink(destination: PlaneMode()) {
+                HStack {
+                    Image("Plane").resizable().frame(width: 50, height: 50)
+                    Text("PlaneMode")
             }
+            .navigationBarTitle("Settings")
         }
     }
-}
+    }}}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
