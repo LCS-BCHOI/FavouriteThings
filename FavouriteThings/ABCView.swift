@@ -9,6 +9,8 @@
 import SwiftUI
 
 struct ABCView: View {
+    @State private var Wifit = true
+    
     var body: some View {
         ScrollView{
             VStack{
@@ -17,14 +19,15 @@ struct ABCView: View {
                 Text("WiFi").font(.largeTitle)
                 
                 HStack {
-                    
-                    Text("WiFi")
-                    
+                                    
                     Spacer()
                     
-                    Image("On and Off")
-                        .resizable()
-                        .frame(maxWidth: 60, maxHeight: 41 )
+                    Toggle(isOn: $Wifit ){
+                        Text("Wifi")
+                    }
+//                    Image("w")
+//                        .resizable()
+//                        .frame(maxWidth: 60, maxHeight: 41 )
                     
                     
                 }

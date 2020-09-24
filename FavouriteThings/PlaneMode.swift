@@ -9,6 +9,7 @@
 import SwiftUI
 
 struct PlaneMode: View {
+    @State private var planemdoe = true
     var body: some View {
          ScrollView{
                     VStack{
@@ -16,12 +17,11 @@ struct PlaneMode: View {
                                    
                                    HStack {
                                        
-                                       Text("PlaneMode")
-                                       
-                                       Spacer()
-                                       
-                                       Image("On and Off").resizable()
-                                       .frame(maxWidth: 60, maxHeight: 41 )
+                                    Toggle(isOn: $planemdoe){
+                                        Text("Plane Mode")
+                                    }
+//                                       Image("On and Off").resizable()
+//                                       .frame(maxWidth: 60, maxHeight: 41 )
                                            
                                        
                     
